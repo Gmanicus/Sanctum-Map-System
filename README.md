@@ -1,5 +1,5 @@
 # Sanctum-Map-System
-Map system for the Discord game [Sanctum](https://discord.gg/CBWkESc). Although it is currently not in use, it is a fully functional Node.JS, image generated map with item, movement, session systems, and more built in. Feel free to use it for whatever you need. Credit me as "Geek Overdrive Studio".
+Map system for the Discord game [Sanctum](https://discord.gg/CBWkESc). Although it is currently not in use, it is a fully functional Node.JS, image generated map with item, movement, session systems, and more built in. Feel free to use it for whatever you need.
 
 ![img](https://cdn.discordapp.com/attachments/501586132375568399/520047743612223488/dungeon.png)
 
