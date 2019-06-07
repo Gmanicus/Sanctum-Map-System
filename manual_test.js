@@ -44,12 +44,14 @@ var dir_table = [ // table to compare compass directions to
 
 
 const map = require('./dungeonmaker.js');
-const room = require('./room_maker.js')
+const map = require('./room_maker.js'); // Handy little library I made for making quick text blips + some
 
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 
 var msg_channel;
+var main_channel_id = "Your Channel ID here";
+var bot_id = "Your Bot ID here";
 
 var seed = 1;
 
@@ -57,7 +59,7 @@ var seed = 1;
 
 bot.on("ready", () => {
     seed = Date.now();
-    msg_channel = bot.channels.get("513586692150525952");
+    msg_channel = bot.channels.get(main_channel_id);
     msg_channel.send("Bot is ready!!!");
 
 });
@@ -521,4 +523,4 @@ function random(max) {      // Helpful little random that is based on the global
 
 
 
-bot.login('MzgwNTYyMjcxNTE4MDY0NjYy.DjO4qg.UzVLyJGg73J-8sgEOJ08PdGVva8');
+bot.login(bot_id);
