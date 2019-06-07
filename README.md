@@ -1,5 +1,5 @@
 # Sanctum-Map-System
-Map system for the Discord game [Sanctum](https://discord.gg/CBWkESc). Although it is currently not in use, it is a fully functional Node.JS, image generated map with item, movement, session systems, and more built in.
+Map system for the Discord game [Sanctum](https://discord.gg/CBWkESc). Although it is currently not in use, it is a fully functional Node.JS, image generated map with item, movement, session systems, and more built in. Feel free to use it for whatever you need. Credit me as "Geek Overdrive Studio".
 
 ![img](https://cdn.discordapp.com/attachments/501586132375568399/520047743612223488/dungeon.png)
 
@@ -15,14 +15,15 @@ const map = require('./dungeonmaker.js');
 Next, you *must* prepare to use `Async`, as much of the map gen API requires awaiting.
 To start generating the map, create a new session:
 ```javascript
-map.session();
+map.session(mode);
+// "mode" can be left out or set to "auto". If left out, the map will not generate any tiles or starting pos. If set to "auto", it will do just that as well as place items, doors, and the end point.
 ```
 
 Now, before generating tiles, disable/enable any settings you'd like:
 ```javascript
-map.session.disableAutoStashing();
-map.session.disableAutoEnd();
-map.session.disableAutoHide();
+map.session.disableAutoStashing(); // Don't place stashes automatically
+map.session.disableAutoEnd(); // Don't place the exit automatically
+map.session.disableAutoHide(); // Don't hide tiles that we haven't explored
 ```
 
 ### Generation:
