@@ -5,4 +5,4 @@ Map system for the Discord game [Sanctum](https://discord.gg/CBWkESc). Although 
 
 ![img](https://cdn.discordapp.com/attachments/501586156975030273/509488023759749130/concept-export.png)
 
-![img](https://imgur.com/u4aIXUN)
+![img](https://i.imgur.com/u4aIXUN.png)
