@@ -91,7 +91,7 @@ map.session.end(our_session);
 
 ## Conclusion:
 
-And that concludes the map generation and movement. You can use this to host multiple galliant text adventures at the same time, or even use it for epic overkill to generate a tile-based word. I dunno, you're choice.
+And that concludes the map generation and movement. You can use this to host multiple galliant text adventures at the same time, or even use it for epic overkill to generate a tile-based word. I dunno, your choice.
 
 
 
